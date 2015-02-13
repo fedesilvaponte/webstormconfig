@@ -1,0 +1,25 @@
+let mapleader = ","          " Cambiar el map leader
+
+nmap <space> :
+
+" Cambiar el search
+nmap ff /
+
+"Cambiar command mode
+imap jj <esc>
+
+" Mover la linea hacia abajo y arriba
+nmap <C-k> :m-2<cr>
+nmap <C-j> :m+<cr>
+
+" easier window navigation
+nmap <C-h> <C-w>h
+nmap <C-l> <C-w>l
+
+" Para autocomplete
+imap <TAB> <C-n>
+
+" Cambiar al buffer reciente
+nmap <leader>b :b#<cr>
+
+set showmode
